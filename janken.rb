@@ -36,7 +36,7 @@ class Player
   # Ecrire la logique pour que l'autre partie génère aléatoirement une valeur de "0~2".
   class Enemy
     def hand
-      enemy_hand = rand(0..2)
+      return rand(0..2)
       # Obtenir une valeur aléatoire pour Goo, Choki ou Par.
     end
   end
